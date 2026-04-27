@@ -1,0 +1,18 @@
+html * {
+  font-family: Outfit, "Big Shoulders", "Times New Roman", Times, serif;
+  background-color: $crema;
+
+  img {
+    max-width: 100%;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: "Big Shoulders";
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
