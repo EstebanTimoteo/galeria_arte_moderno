@@ -1,5 +1,4 @@
 html * {
-  font-family: Outfit, "Big Shoulders", Arial, Helvetica, sans-serif;
   font-size: 18px;
 
   img {
@@ -9,7 +8,7 @@ html * {
   h1,
   h2,
   h3 {
-    font-family: "Big Shoulders";
+    font-family: $font-titles;
   }
 
   h1 {
@@ -24,6 +23,7 @@ html * {
 }
 
 body {
+  font-family: $font-body;
   overflow-x: hidden;
   background-color: $crema;
 }
