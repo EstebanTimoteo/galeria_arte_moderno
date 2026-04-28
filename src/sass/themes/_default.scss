@@ -1,6 +1,5 @@
 html * {
-  font-family: Outfit, "Big Shoulders", "Times New Roman", Times, serif;
-  background-color: $crema;
+  font-family: Outfit, "Big Shoulders", Arial, Helvetica, sans-serif;
   font-size: 18px;
 
   img {
@@ -26,4 +25,5 @@ html * {
 
 body {
   overflow-x: hidden;
+  background-color: $crema;
 }
