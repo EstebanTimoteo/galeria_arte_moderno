@@ -3,8 +3,10 @@
 @import "./abstracts/variables";
 @import "./vendors/vendors";
 @import "./base/base";
+@import "./base/reset";
 @import "./components/components";
 @import "./layout/layout";
 @import "./pages/pages";
 @import "./themes/themes";
+@import "./themes/default";
 @import "settings";
