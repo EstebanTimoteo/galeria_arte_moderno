@@ -22,4 +22,11 @@
       @content;
     }
   }
+
+ @if $bp == mobile {
+    @media (min-width: $bp-mobile) {
+      @content;
+    }
+  }
+
 }

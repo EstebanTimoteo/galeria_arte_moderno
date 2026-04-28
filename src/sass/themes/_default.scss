@@ -1,5 +1,11 @@
 html * {
   font-size: 18px;
+}
+
+body {
+  font-family: $font-body;
+  overflow-x: hidden;
+  background-color: $crema;
 
   img {
     max-width: 100%;
@@ -20,10 +26,8 @@ html * {
   h3 {
     font-size: 40px;
   }
-}
 
-body {
-  font-family: $font-body;
-  overflow-x: hidden;
-  background-color: $crema;
+  @include breakpoint(desktop) {
+    background-color: white;
+  }
 }
