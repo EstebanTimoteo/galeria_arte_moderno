@@ -1,5 +1,14 @@
 import { defineConfig } from "vite";
+import { resolve } from "path";
 
 export default defineConfig({
- base: "/galeria_arte_moderno/", // Debe ser el nombre exacto de tu repo en GitHub
+  base: "/galeria_arte_moderno/",
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, "index.html"),
+        location: resolve(__dirname, "location.html"),
+      },
+    },
+  },
 });
